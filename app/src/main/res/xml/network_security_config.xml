@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!--Dominio-->
+        <!--domain includeSubdomains="true">192.168.0.63</domain-->
+
+        <!--Dominio Presentacion-->
+        <domain includeSubdomains="true">10.0.19.148</domain>
+
+        <!--Dominio Casa-->
+        <!--domain includeSubdomains="true">192.168.1.77</domain-->
+    </domain-config>
+</network-security-config>
